@@ -1,6 +1,6 @@
 module adder(
-    output s,c,
+    output s,cout,
     input a,b,cin
 );
-assign {c,s}=a+b+cin;
+assign {s,cout}=a+b+cin;
 endmodule
